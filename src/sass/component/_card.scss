@@ -128,7 +128,7 @@
 
     // Back Side Styling
     &__cta {
-        @include vertical-horizontal-center;
+        @include absCenter;
         text-align: center;
         width: 90%;
     }

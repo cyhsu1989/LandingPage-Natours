@@ -73,7 +73,7 @@
         left: 0;
 
         &::after {
-            @include vertical-horizontal-center;
+            @include absCenter;
             content: '';
             border-radius: 50%;
             background-color: $color-primary;
