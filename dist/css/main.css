@@ -996,7 +996,7 @@ body {
 @media (max-width: 56.25em) {
   .popup__right {
     display: block;
-    padding: 2rem 4rem;
+    padding: 2rem 3.5rem;
     width: 100%;
   }
 }
@@ -1004,6 +1004,12 @@ body {
 .popup__img {
   display: block;
   width: 100%;
+}
+
+@media (max-width: 56.25em) {
+  .popup__img {
+    display: none;
+  }
 }
 
 .popup__text {
