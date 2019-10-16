@@ -22,6 +22,7 @@ Landing Page 版型，並利用 CSS Animation 及 Transition 作動畫處理，�
 * HTML5
 * CSS
 * CSS Animation
+* CSS New Features
 * SASS/SCSS
     - BEM
     - 7-1 system
