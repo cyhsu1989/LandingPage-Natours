@@ -1152,10 +1152,15 @@ body {
   }
 }
 
+@media only screen and (max-width: 75em) {
+  .row {
+    padding: 0 3rem;
+  }
+}
+
 @media only screen and (max-width: 56.25em) {
   .row {
     max-width: 50rem;
-    padding: 0 3rem;
   }
 }
 
@@ -1370,6 +1375,7 @@ body {
   width: 0;
   -webkit-transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  visibility: hidden;
 }
 
 .navigation__list {
@@ -1421,6 +1427,7 @@ body {
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
   width: 100%;
+  visibility: visible;
 }
 
 .navigation__icon {
